@@ -1,0 +1,53 @@
+body {
+  color: white;
+  background-color: #6CAADD;
+}
+.start{
+  position: absolute;
+  top: 50%;
+  left: 45vw;
+}
+.start button{
+  background-color: #262D4A;
+  padding: 12px;
+  border: 2px solid white;
+  color: white;
+}
+
+.main {
+  position: absolute;
+  top: 35vh;
+  left: 35vw;
+}
+
+.wrapper {
+  border-radius: 5px;
+  background-color: #262D4A;
+  padding: 20px 50px;
+  display: flex;
+  width: 25vw;
+  justify-content: center;
+}
+.questions{
+  padding: 0 1vw;
+  /* background-color: blueviolet; */
+}
+.questions p {
+  /* background-color: rebeccapurple; */
+  width: 12vw;
+  line-height: 25px;
+  font-weight: bold;
+}
+.possibleAnswer{
+  padding: 0 2vw;
+  /* background-color:aqua ; */
+}
+.possibleAnswer button{
+  margin: 12px 0 ;
+  width: 10vw;
+  padding: 3px;
+  border: 2px solid  whitesmoke;
+  background-color: #262D4A;
+  color: whitesmoke;
+}
+button:hover {border: 2px solid #3e8e41}
